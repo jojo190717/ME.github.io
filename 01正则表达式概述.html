@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>正则表达式概述</title>
+</head>
+<body>
+<script>
+    /*
+    正则表达式
+    描述：正则表达式是一种检索字符串的规则，表现为字符串的样子
+    语法：/正则表达式主体/修饰符(可选)
+    本质：正则表达式本质上是对象类型，只不过表现为字符串的样子
+     */
+    //规则：检索beixi字符串
+    var reg1=/beixi/;
+    //规则：忽略大小写的，检索beixi字符串
+    var reg2=/beixi/i;
+    console.log(typeof reg1);
+    console.log(typeof reg2);
+</script>
+</body>
+</html>
